@@ -31,7 +31,7 @@ function App() {
           <ul>
             <FruitList fruitName={fruits} />
           </ul>
-          <p>The full price: ${totalPrice}</p>
+          <p>The full price: $ {totalPrice}</p>
         </div>
         <button onClick={filterRedFruits}>Filter for Red Fruits</button>
         <button onClick={reset}>Reset Filter</button>
